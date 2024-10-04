@@ -12,9 +12,3 @@ python-dotenv==1.0.0
 langchain==0.0.304
 langchain-google-genai==0.0.7
 faiss-cpu==1.7.4  # for FAISS vector store
-
-# Optional dependencies
-google-auth==2.23.0  # required for using Google services
-
-# Other general dependencies
-base64  # No need to explicitly list this as it's part of Python's standard library
