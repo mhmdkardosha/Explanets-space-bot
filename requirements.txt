@@ -1,0 +1,23 @@
+# Python version
+python==3.12.5
+
+# Streamlit for UI
+streamlit==1.25.0
+
+# Data handling
+pandas==2.1.0
+numpy==1.25.2
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Langchain and related packages
+langchain==0.0.304
+langchain-google-genai==0.0.7
+faiss-cpu==1.7.4  # for FAISS vector store
+
+# Optional dependencies
+google-auth==2.23.0  # required for using Google services
+
+# Other general dependencies
+base64  # No need to explicitly list this as it's part of Python's standard library
